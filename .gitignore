@@ -1,0 +1,27 @@
+# Python cache / compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Ignore everything in models except download scripts
+!voices/**/download_models.sh
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+*.swp
+
+# VSCode
+.vscode/
+
+# Logs / temp files
+*.log
+.env
+tmp/
+*.wav
